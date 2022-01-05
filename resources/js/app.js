@@ -11,6 +11,7 @@ require('./bootstrap');
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import router from './router';
+import 'bootstrap';
 
 /**
  * The following block of code may be used to automatically register your

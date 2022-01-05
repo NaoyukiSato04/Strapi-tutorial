@@ -1,6 +1,7 @@
 import Router from 'vue-router'
 import Home from './components/pages/Home.vue'
 import About from './components/pages/About.vue'
+import Mypage from './components/pages/Mypage.vue'
 import MailAuth from './components/pages/MailAuth.vue'
 import Regist from './components/pages/Regist.vue'
 import Login from './components/pages/Login.vue'
@@ -20,6 +21,11 @@ export default new Router({
         path: '/about',
         name: 'about',
         component: About
+    },
+    {
+        path: '/mypage',
+        name: 'mypage',
+        component: Mypage
     },
     {
         path: '/mail_auth',
